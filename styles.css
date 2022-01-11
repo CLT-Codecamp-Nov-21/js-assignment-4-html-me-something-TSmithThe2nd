@@ -1,11 +1,13 @@
-body{margin: 8px;
-    font-size: 20;
-   padding: 250px;
+body{margin: 8px; 
+   padding: 8px; 
+   background-color: rgba(202, 202, 143, 0.74);}
+
+main{font-size: 20; 
    padding-top: 50px;
    padding-bottom: 20px;
-   /* padding-right: 60px;} */
-    margin-right: 250px;
-   background-color: rgba(202, 202, 143, 0.74);}
+   margin-right: 300px;
+   margin-left: 100px;}
+
 h1{text-align: center;}
 h2{text-align: center;}
 ul {list-style-type: none;
