@@ -3,27 +3,28 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="html-me-something\styles.css">
    <title>Brewing Basics</title>
 </head>
 <body>
-   <h1>BREWING BASICS</h1>
+   <h1 id="mainHeading">BREWING BASICS</h1>
    <header><ul>
-      Ingredients
-      <li>Water</li>
-      <li>Malt</li>
-      <li>Hops</li>
-      <li>Yeast</li>
-      process
-      <li>Mash</li>
-      <li>Hop</li>
-      <li>Boil</li>
-      <li>Ferment</li>
+      
+      <li><a href="#water"> Water </a></li>
+      <li><a href="#malt"> Malt</a></li>
+      <li><a href="#hops"> Hops</a></li>
+      <li><a href="#yeast"> Yeast</a></li>
+      
+      <li><a href="#mash"> Mash</a></li>
+      <li><a href="#hops2"> Hop</a></li>
+      <li><a href="#boil"> Boil</a></li>
+      <li><a href="#ferment"> Ferment</a></li>
    </ul>
    </header>
    <main>
       <article>
          <h1>Part 1</h1>
-         <p>&#182; So you want to brew some beer, but you don't know where to start. 
+         <p id="testp">&#182; So you want to brew some beer, but you don't know where to start. 
             Well the first thing you will need to do is gather your ingredients. 
             Beer consists of four main ingredients; water, malt, hops, and yeast. 
             There are some other ingredients that can be used as well, unless you 
@@ -31,8 +32,9 @@
          <section>
             <h2>
                Water
+               <link href="water">
             </h2>
-            <img src="html-me-something\water.JPG" alt="image of water in container">
+            <img class="picLeft" id='water' src="html-me-something\water.JPG" alt="image of water in container">
             <p>&#182; Where to find these ingredients. Let's start with water, if you are fortunate 
                like me you have running water right in your home, so we can check that off… Well no. 
                If you are also fortunate like me you have a great municipal water that drinks well 
@@ -58,7 +60,8 @@
             <h2>
                Malts
             </h2>
-            <img src="html-me-something\handsinmalt.jpg" alt="hands in malt">
+            <link href="malt">
+            <img class="picRight" id='grains' src="html-me-something\handsinmalt.jpg" alt="hands in malt">
             <p>&#182; Malts  are the backbone of beer. And when you hear people talk about malts, they are 
                talking about malted barley. You will likely hear these words interchanged as you listen 
                to different people discuss the beer making process. What is barley? Well barley is a 
@@ -87,7 +90,8 @@
             <h2>
                Hops
             </h2>
-            <img src="html-me-something\hopflowers.jpg" alt="Whole hop flowers on a table">
+            <link href="hops">
+            <img class="picLeft" id='hopFlower' src="html-me-something\hopflowers.jpg" alt="Whole hop flowers on a table">
             <p>&#182; Now we know where malt comes from let's look at our next ingredient, hops. Hops are essential 
                to beer. The first reason hops are needed for beer is their bittering quality, without this 
                beer would be too sweet. The second reason is that hops act as a natural preservative. 
@@ -101,7 +105,8 @@
             <h2>
                Yeast
             </h2>
-            <img src="html-me-something\yeastinsolution.jpg" alt="Yeast starter in liquid form, inside of a graduated beaker">
+            <link href="yeast">
+            <img class="picRight" id='yeastStarter' src="html-me-something\yeastinsolution.jpg" alt="Yeast starter in liquid form, inside of a graduated beaker">
             <p>&#182; The final ingredient to beer is yeast. This single celled fungus converts sugar into alcohol 
                and creates flavor compounds. Feeding the yeast digestible sugars so that it can create alcohol
                 is the primary purpose of the barley when it comes to making beer. For a long time, humankind 
@@ -120,7 +125,7 @@
 
       <article>
          <h1>Part 2</h1>
-         <p>&#182; In the previous post we talked about beer ingredients 
+         <p class="funParagraph">&#182; In the previous post we talked about beer ingredients 
             and gave a little background into what where 
             they come from and what role they play in the creation 
             of beer. Now let's get to brewing. </p>
@@ -128,7 +133,8 @@
             <h2>
                Mashing
             </h2>
-            <img src="html-me-something\pilsnermalt.jpg" alt="Picture of light malt">
+            <link href="mash">
+            <img class="picRight" id="lightMalt" src="html-me-something\pilsnermalt.jpg" alt="Picture of light malt">
             <p>&#182;What do you do with all of your grains once you get them together? 
                Well first you will want to make sure the husks are cracked. If 
                you are shopping at your local homebrew shop they should be happy 
@@ -150,7 +156,8 @@
             <h2>
                Hop and boil
             </h2>
-            <img src="html-me-something\pellethops.jpg" alt="Image of pellet hops">
+            <link href="boil">
+            <img class="picLeft" id="hopPellet" src="html-me-something\pellethops.jpg" alt="Image of pellet hops">
             <p>&#182;After mashing you will collect the sweet liquid that has been created, 
                we call this liquid wort. It is at this point you will want to boil 
                your wort and add your hops.
@@ -183,7 +190,8 @@
             <h2>
                Ferment
             </h2>
-            <img src="html-me-something\fermenters.jpg" alt="Fermentation vessel">
+            <link href="ferment">
+            <img class="picRight" id="ferment" src="html-me-something\fermenters.jpg" alt="Fermentation vessel">
             <p>
                &#182;Now that you have extracted your wort, boiled it, and introduced your hops, 
                it's time to cool it down. Chilling your wort as quickly as possible will 
